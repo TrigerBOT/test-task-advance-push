@@ -1,0 +1,209 @@
+.excursions {}
+
+.excursions__overlay {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.excursions__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.excursions__title {
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-right: 54px;
+}
+
+.excursions__input {
+    border-radius: 10px;
+    border: 1px solid #E6E6E6;
+    width: 241px;
+    height: 26px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    color: #B7B7B7;
+    padding: 13px 20px;
+}
+
+.excursions__input:active {
+    border: 1px solid #E6E6E6;
+}
+
+.excursions__cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 35px;
+    grid-row-gap: 30px;
+    margin-bottom: 90px;
+}
+
+.card__excursions {
+    width: 334px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+
+.card__like {
+    cursor: pointer;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    top: 16px;
+    right: 16px;
+    width: 50px;
+    border-radius: 100px;
+    background-color: rgba(255, 255, 255, .1);
+}
+
+.card__info {
+    padding: 0 26px;
+}
+
+.card__info__title {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23px
+}
+
+.card__info__more {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.card__price {
+    border-top: 1px solid #E6E6E6;
+    padding-top: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price__left__text {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    margin-bottom: 6px;
+}
+
+.price__left__text_slash {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.price__left__text_low {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.card__img {
+    width: 100%;
+    background: cover;
+    border-radius: 20px 20px 0 0;
+}
+
+.add__btn {
+    width: 46px;
+    border: none;
+    cursor: pointer;
+    height: 46px;
+    flex-shrink: 0;
+    fill: #E9E9E9;
+    border-radius: 100px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.card__info {
+    border: 1px solid #DFDFDF;
+    border-radius: 0 0 20px 20px;
+    padding-bottom: 19px;
+}
+
+.date__input__box {
+    width: 135px;
+    display: flex;
+    align-items: center;
+    border-radius: 1000px;
+    height: 30px;
+    border: 1px solid #E9E9E9;
+
+}
+
+.date__input {
+    margin: 0 5px !important;
+    font-size: 12px;
+    font-style: normal;
+    width: 100px;
+    font-weight: 400;
+    line-height: normal;
+
+    color: #252525;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.date__one__box {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 0 13px;
+    border-radius: 1000px;
+    height: 30px;
+    border: 1px solid #E9E9E9;
+}
+
+.date__input:focus {
+    outline: none;
+}
+
+.date__input::-webkit-calendar-picker-indicator {
+    color: transparent;
+    background: none;
+    z-index: 1;
+}
+
+.all__btn {
+    cursor: pointer;
+    align-self: center;
+    justify-self: center;
+    width: 194px;
+    height: 55px;
+    color: #000;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+    border-radius: 100px;
+    background: #FFD600;
+    border: none;
+}

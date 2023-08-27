@@ -1,0 +1,68 @@
+@import url(./header.css);
+@import url(./fastSearch.css);
+@import url(./popular.css);
+@import url(./excursions.css);
+@import url(./reviews.css);
+@import url(./blog.css);
+@import url(./promo.css);
+@import url(./footer.css);
+body{
+  
+    margin: 0;
+    font-family: Montserrat;
+    color: #252525;
+}
+.ml-5{
+    margin-left: 5px;
+}
+.mr-9{
+    margin-right: 9px;
+}
+.mr-15{
+margin-right: 15px;
+}
+.mr-10{
+    margin-right: 10px;
+}
+.mr-20{
+    margin-right: 20px;
+}
+.mr-30{
+    margin-right: 30px;
+}
+.mr-40{
+    margin-right: 40px;
+}
+.input_empty{
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+.underlined{
+    text-decoration-line: underline;
+}
+
+.grey-back{
+    background: linear-gradient(180deg, #FFF 0%, rgba(217, 217, 217, 0.00) 100%);
+}
+.rounded-end{
+    border-radius: 0px 0px 50px 50px;
+background: #FFF;
+height: 119px;
+margin-bottom: 90px;
+}
+.container{
+    min-width: 1000px;
+    max-width: 1440px;
+    margin-left: auto;
+  margin-right: auto;
+}
+.d-f{
+    display: flex;
+}
+.bold{
+    font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}

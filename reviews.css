@@ -1,0 +1,155 @@
+.reviews {
+    margin: 0 auto;
+    display: flex;      
+    border-radius: 20px;
+   flex-direction: column;
+    box-shadow: 0px 27px 31px 0px rgba(0, 0, 0, 0.02);
+ 
+}
+.reviews__overlay{
+    display: flex;
+    border-radius: 20px;
+    flex-direction: column;
+     background: #FFF;
+     box-shadow: 0px 27px 31px 0px rgba(0, 0, 0, 0.02);
+     margin-bottom: 114px;
+     padding: 0 98px;
+     padding-top: 69px;
+}
+.reviews__container{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.reviews__left {
+    
+    width: 318px;
+}
+
+.reviews__title {
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 21px;
+}
+
+.reviews__subtitle {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 69px;
+}
+
+.review__img {
+    width: 130px;
+    height: 130px;
+    border-radius: 130px;
+}
+
+.review__name {
+    width: 100%;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    border-bottom: 1px solid #EBEBEB;
+    margin: 0;
+    padding-bottom: 16px;
+    color: #252525;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.review__tour {
+    padding-top: 8px;
+    width: 100%;
+    border-bottom: 1px solid #EBEBEB;
+    display: flex;
+    align-items: center;
+    padding-bottom: 11px;
+
+}
+
+.reviews__right {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    width: 756px;
+}
+
+.tour__dir {
+    margin-right: 50px;
+}
+
+.review__info {
+    color: #7B7B7B;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.tour_name {
+    color: #252525;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    text-decoration-line: underline;
+}
+
+.tour__rate {
+    display: flex;
+    align-items: center;
+}
+
+.review__content {
+    color: #252525;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.slider{
+    align-self: end;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 80px;
+    
+
+}
+.arrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    border: 1px solid #D2D2D2;
+}
+.arrow_filled{
+    background-image: url('./img/ellipse.svg');
+}
+.pagination{
+    width: 112px;
+    display: flex;
+    justify-content: space-between;
+    height: 12px;
+    
+}
+.dot{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color:  #D2D2D2;;
+}
+.dot_active{
+    background-color: #FFD600;
+}

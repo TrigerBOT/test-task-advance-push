@@ -1,0 +1,156 @@
+.fastSearch {
+    margin: 0 auto;
+    
+}
+.fastSearch__overlay{
+    background: url(./img/man-sits-end-trolltunga-before-mountains\ 1.png) lightgray 50% / cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    margin-bottom: 100px;
+}
+.swoosh {
+    width: 228px;
+    height: 42px;
+}
+
+.fastSearch__header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.fastSearch__title {
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 900;
+    width: 549px;
+    text-align: center;
+}
+
+.fastSearch__subtitle {
+    margin-top: 8px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.fastSearch__searchbar {
+    max-width: 779px;
+    height: 75px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 100px;
+    box-shadow: 0px 42px 80px 0px rgba(0, 0, 0, 0.25);
+    margin-bottom: 133px;
+}
+
+.fastSearch__inputs {
+    display: flex;
+    flex-grow: 1;
+    margin-left: 24px;
+}
+
+.search__input {
+    display: flex;
+    align-items: center;
+    padding-right: 28px;
+    border-right: 1px solid #EBEBEB;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: #7B7B7B;
+
+}
+
+.search__input:last-child {
+    margin-left: 29px;
+    border-right: none;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 37px;
+    height: 37px;
+    fill: #FFF;
+    margin-right: 14px;
+    border-radius: 100%;
+    border: 1px solid #DBDBDB;
+}
+
+.i-14 {
+    width: 14px;
+    height: 14px;
+}
+
+.search__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 134px;
+    height: 55px;
+    border-radius: 100px;
+    background: #FFD600;
+    margin-right: 11px;
+}
+
+.input {
+    border: none;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: #7B7B7B;
+}
+
+.loupe {
+    margin-right: 9px;
+}
+
+.fastSearch__footer {
+    max-width: 556.797px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #252525;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.places {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    margin-left: 18px;
+    padding: 0;
+}
+
+.place__item {
+    padding: 9px 10px;
+    border-radius: 30px;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background: rgba(37, 37, 37, .15);
+}

@@ -1,0 +1,83 @@
+.popular{
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.popular__title {
+    color: #252525;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin: 0px 0 17px 0;
+}
+
+.popular__subtitle {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0 0 60px;
+}
+
+.cards__popular {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 45px;
+}
+
+.card__popular {
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    width: 449px;
+    height: 490px;
+    background: url('./img/dubai.jpg');
+    border-radius: 30px;
+}
+
+.card__title_popular {
+    color: #fff;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 18px;
+}
+
+.card__tour {
+    border: none;
+    cursor: pointer;
+    width: 132px;
+    border-radius: 100px;
+    background: #FFD600;
+    text-align: center;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    height: 34.398px;
+    text-align: center;
+
+}
+
+.card____popular-info {
+    margin: 0 0 39px 30px;
+    z-index: 2;
+}
+
+.shadow {
+    z-index: 0;
+    width: 646.405px;
+    height: 548.065px;
+    position: absolute;
+    border-radius: 646.405px;
+    top: 350px;
+    left: -300px;
+    opacity: 0.79;
+    background: #252525;
+    filter: blur(122px);
+}
